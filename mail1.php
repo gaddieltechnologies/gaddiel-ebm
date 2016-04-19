@@ -13,8 +13,8 @@
 		 $mail->IsSMTP(); 
 		 
 		 $mail->SMTPAuth = true;     // turn of SMTP authentication
-		 $mail->Username = "ajprincejob@gmail.com";  // SMTP username  (Ex: sumithnets@yahoo.com)
-		 $mail->Password = "9751711325"; // SMTP password  (Ex: yahoo email password)
+		 $mail->Username = "";  // SMTP username  (Ex: sumithnets@yahoo.com)
+		 $mail->Password = ""; // SMTP password  (Ex: yahoo email password)
 		 $mail->SMTPSecure = "ssl";
 		
 		 $mail->Host = "smtp.gmail.com";
